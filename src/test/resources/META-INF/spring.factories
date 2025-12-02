@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = \
+    com.hm.pharmacy.config.SqlTestContainersSpringContextCustomizerFactory,com.\
+    hm.pharmacy.config.TestContainersSpringContextCustomizerFactory
