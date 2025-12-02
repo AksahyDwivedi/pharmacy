@@ -1,0 +1,85 @@
+entity Medicines {
+  name String
+  manufacturer String
+  category String
+  price BigDecimal
+  stock Integer
+}
+
+entity MedicineBatches {
+  batchNumber String
+  expiryDate LocalDate
+  quantity Integer
+}
+
+entity Customers {
+  name String
+  phone String
+  email String
+  address TextBlob
+}
+
+entity Suppliers {
+  name String
+  contactPerson String
+  phone String
+  email String
+  address TextBlob
+}
+
+entity Purchases {
+  purchaseDate LocalDate
+  invoiceNumber String
+  totalAmount BigDecimal
+}
+
+entity PurchaseItems {
+  quantity Integer
+  price BigDecimal
+}
+
+entity Sales {
+  saleDate Instant
+  invoiceNumber String
+  totalAmount BigDecimal
+}
+
+entity SaleItems {
+  quantity Integer
+  price BigDecimal
+}
+
+entity Prescriptions {
+  doctorName String
+  prescriptionDate LocalDate
+  notes TextBlob
+}
+
+entity Payments {
+  paymentDate Instant
+  paymentMethod String
+  paymentStatus String
+  amount BigDecimal
+}
+
+entity SupplierPayments {
+  paymentDate Instant
+  paymentMethod String
+  paymentStatus String
+  amountPaid BigDecimal
+}
+
+relationship OneToMany {
+  Suppliers to Purchases
+  Suppliers to SupplierPayments
+  Purchases to PurchaseItems
+  Purchases to MedicineBatches
+  Purchases to SupplierPayments
+  Medicines to PurchaseItems
+  Medicines to MedicineBatches
+  Medicines to SaleItems
+  Customers to Prescriptions
+  Customers to Sales
+  Sales to SaleItems
+  Sales to Payments
+}
