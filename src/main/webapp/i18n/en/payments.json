@@ -1,0 +1,29 @@
+{
+  "hmPharmacyApp": {
+    "payments": {
+      "home": {
+        "title": "Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Payments",
+        "createOrEditLabel": "Create or edit a Payments",
+        "search": "Search for Payments",
+        "notFound": "No Payments found"
+      },
+      "created": "A new Payments is created with identifier {{ param }}",
+      "updated": "A Payments is updated with identifier {{ param }}",
+      "deleted": "A Payments is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Payments {{ id }}?"
+      },
+      "detail": {
+        "title": "Payments"
+      },
+      "id": "ID",
+      "paymentDate": "Payment Date",
+      "paymentMethod": "Payment Method",
+      "paymentStatus": "Payment Status",
+      "amount": "Amount",
+      "sales": "Sales"
+    }
+  }
+}

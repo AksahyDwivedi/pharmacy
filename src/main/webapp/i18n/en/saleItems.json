@@ -1,0 +1,28 @@
+{
+  "hmPharmacyApp": {
+    "saleItems": {
+      "home": {
+        "title": "Sale Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Sale Items",
+        "createOrEditLabel": "Create or edit a Sale Items",
+        "search": "Search for Sale Items",
+        "notFound": "No Sale Items found"
+      },
+      "created": "A new Sale Items is created with identifier {{ param }}",
+      "updated": "A Sale Items is updated with identifier {{ param }}",
+      "deleted": "A Sale Items is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sale Items {{ id }}?"
+      },
+      "detail": {
+        "title": "Sale Items"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "price": "Price",
+      "medicines": "Medicines",
+      "sales": "Sales"
+    }
+  }
+}

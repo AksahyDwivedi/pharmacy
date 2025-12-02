@@ -1,0 +1,52 @@
+{
+  "annotations": {
+    "changelogDate": "20251202145322"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "manufacturer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "stock",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Medicines",
+  "relationships": [
+    {
+      "otherEntityName": "purchaseItems",
+      "otherEntityRelationshipName": "medicines",
+      "relationshipName": "purchaseItems",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "medicineBatches",
+      "otherEntityRelationshipName": "medicines",
+      "relationshipName": "medicineBatches",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "saleItems",
+      "otherEntityRelationshipName": "medicines",
+      "relationshipName": "saleItems",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ]
+}

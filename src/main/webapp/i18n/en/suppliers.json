@@ -1,0 +1,31 @@
+{
+  "hmPharmacyApp": {
+    "suppliers": {
+      "home": {
+        "title": "Suppliers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Suppliers",
+        "createOrEditLabel": "Create or edit a Suppliers",
+        "search": "Search for Suppliers",
+        "notFound": "No Suppliers found"
+      },
+      "created": "A new Suppliers is created with identifier {{ param }}",
+      "updated": "A Suppliers is updated with identifier {{ param }}",
+      "deleted": "A Suppliers is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Suppliers {{ id }}?"
+      },
+      "detail": {
+        "title": "Suppliers"
+      },
+      "id": "ID",
+      "name": "Name",
+      "contactPerson": "Contact Person",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "purchases": "Purchases",
+      "supplierPayments": "Supplier Payments"
+    }
+  }
+}

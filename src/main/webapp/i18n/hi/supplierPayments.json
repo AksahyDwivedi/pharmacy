@@ -1,0 +1,30 @@
+{
+  "hmPharmacyApp": {
+    "supplierPayments": {
+      "home": {
+        "title": "SupplierPayments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Supplier Payments बनाएँ",
+        "createOrEditLabel": "Supplier Payments बनाएँ या संपादित करें",
+        "search": "Supplier Payments खोजें",
+        "notFound": "No Supplier Payments found"
+      },
+      "created": "एक नया Supplier Payments [identifier: {{ param }}] तैयार है",
+      "updated": "एक Supplier Payments [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Supplier Payments [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Supplier Payments [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Supplier Payments"
+      },
+      "id": "ID",
+      "paymentDate": "Payment Date",
+      "paymentMethod": "Payment Method",
+      "paymentStatus": "Payment Status",
+      "amountPaid": "Amount Paid",
+      "suppliers": "Suppliers",
+      "purchases": "Purchases"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "hmPharmacyApp": {
+    "purchaseItems": {
+      "home": {
+        "title": "PurchaseItems",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Purchase Items बनाएँ",
+        "createOrEditLabel": "Purchase Items बनाएँ या संपादित करें",
+        "search": "Purchase Items खोजें",
+        "notFound": "No Purchase Items found"
+      },
+      "created": "एक नया Purchase Items [identifier: {{ param }}] तैयार है",
+      "updated": "एक Purchase Items [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Purchase Items [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Purchase Items [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Purchase Items"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "price": "Price",
+      "purchases": "Purchases",
+      "medicines": "Medicines"
+    }
+  }
+}

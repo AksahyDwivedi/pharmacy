@@ -1,0 +1,37 @@
+{
+  "annotations": {
+    "changelogDate": "20251202145323"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "batchNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "expiryDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "quantity",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "MedicineBatches",
+  "relationships": [
+    {
+      "otherEntityName": "purchases",
+      "otherEntityRelationshipName": "medicineBatches",
+      "relationshipName": "purchases",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "medicines",
+      "otherEntityRelationshipName": "medicineBatches",
+      "relationshipName": "medicines",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ]
+}

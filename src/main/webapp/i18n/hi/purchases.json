@@ -1,0 +1,31 @@
+{
+  "hmPharmacyApp": {
+    "purchases": {
+      "home": {
+        "title": "Purchases",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Purchases बनाएँ",
+        "createOrEditLabel": "Purchases बनाएँ या संपादित करें",
+        "search": "Purchases खोजें",
+        "notFound": "No Purchases found"
+      },
+      "created": "एक नया Purchases [identifier: {{ param }}] तैयार है",
+      "updated": "एक Purchases [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Purchases [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Purchases [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Purchases"
+      },
+      "id": "ID",
+      "purchaseDate": "Purchase Date",
+      "invoiceNumber": "Invoice Number",
+      "totalAmount": "Total Amount",
+      "purchaseItems": "Purchase Items",
+      "medicineBatches": "Medicine Batches",
+      "supplierPayments": "Supplier Payments",
+      "suppliers": "Suppliers"
+    }
+  }
+}

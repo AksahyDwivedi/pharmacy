@@ -1,0 +1,29 @@
+{
+  "hmPharmacyApp": {
+    "payments": {
+      "home": {
+        "title": "Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Payments बनाएँ",
+        "createOrEditLabel": "Payments बनाएँ या संपादित करें",
+        "search": "Payments खोजें",
+        "notFound": "No Payments found"
+      },
+      "created": "एक नया Payments [identifier: {{ param }}] तैयार है",
+      "updated": "एक Payments [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Payments [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Payments [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Payments"
+      },
+      "id": "ID",
+      "paymentDate": "Payment Date",
+      "paymentMethod": "Payment Method",
+      "paymentStatus": "Payment Status",
+      "amount": "Amount",
+      "sales": "Sales"
+    }
+  }
+}

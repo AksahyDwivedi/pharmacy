@@ -50,6 +50,29 @@ public class CacheConfiguration {
             createCache(cm, com.hm.pharmacy.domain.User.class.getName());
             createCache(cm, com.hm.pharmacy.domain.Authority.class.getName());
             createCache(cm, com.hm.pharmacy.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.hm.pharmacy.domain.Medicines.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.Medicines.class.getName() + ".purchaseItems");
+            createCache(cm, com.hm.pharmacy.domain.Medicines.class.getName() + ".medicineBatches");
+            createCache(cm, com.hm.pharmacy.domain.Medicines.class.getName() + ".saleItems");
+            createCache(cm, com.hm.pharmacy.domain.MedicineBatches.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.Customers.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.Customers.class.getName() + ".prescriptions");
+            createCache(cm, com.hm.pharmacy.domain.Customers.class.getName() + ".sales");
+            createCache(cm, com.hm.pharmacy.domain.Suppliers.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.Suppliers.class.getName() + ".purchases");
+            createCache(cm, com.hm.pharmacy.domain.Suppliers.class.getName() + ".supplierPayments");
+            createCache(cm, com.hm.pharmacy.domain.Purchases.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.Purchases.class.getName() + ".purchaseItems");
+            createCache(cm, com.hm.pharmacy.domain.Purchases.class.getName() + ".medicineBatches");
+            createCache(cm, com.hm.pharmacy.domain.Purchases.class.getName() + ".supplierPayments");
+            createCache(cm, com.hm.pharmacy.domain.PurchaseItems.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.Sales.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.Sales.class.getName() + ".saleItems");
+            createCache(cm, com.hm.pharmacy.domain.Sales.class.getName() + ".payments");
+            createCache(cm, com.hm.pharmacy.domain.SaleItems.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.Prescriptions.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.Payments.class.getName());
+            createCache(cm, com.hm.pharmacy.domain.SupplierPayments.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

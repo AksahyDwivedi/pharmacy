@@ -1,0 +1,45 @@
+{
+  "annotations": {
+    "changelogDate": "20251202145325"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contactPerson",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "TextBlob"
+    }
+  ],
+  "name": "Suppliers",
+  "relationships": [
+    {
+      "otherEntityName": "purchases",
+      "otherEntityRelationshipName": "suppliers",
+      "relationshipName": "purchases",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "supplierPayments",
+      "otherEntityRelationshipName": "suppliers",
+      "relationshipName": "supplierPayments",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ]
+}

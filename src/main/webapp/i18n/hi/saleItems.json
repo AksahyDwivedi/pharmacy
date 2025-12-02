@@ -1,0 +1,28 @@
+{
+  "hmPharmacyApp": {
+    "saleItems": {
+      "home": {
+        "title": "SaleItems",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Sale Items बनाएँ",
+        "createOrEditLabel": "Sale Items बनाएँ या संपादित करें",
+        "search": "Sale Items खोजें",
+        "notFound": "No Sale Items found"
+      },
+      "created": "एक नया Sale Items [identifier: {{ param }}] तैयार है",
+      "updated": "एक Sale Items [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Sale Items [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Sale Items [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Sale Items"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "price": "Price",
+      "medicines": "Medicines",
+      "sales": "Sales"
+    }
+  }
+}

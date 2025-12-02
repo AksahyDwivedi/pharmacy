@@ -1,0 +1,32 @@
+{
+  "hmPharmacyApp": {
+    "medicines": {
+      "home": {
+        "title": "Medicines",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Medicines बनाएँ",
+        "createOrEditLabel": "Medicines बनाएँ या संपादित करें",
+        "search": "Medicines खोजें",
+        "notFound": "No Medicines found"
+      },
+      "created": "एक नया Medicines [identifier: {{ param }}] तैयार है",
+      "updated": "एक Medicines [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Medicines [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Medicines [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Medicines"
+      },
+      "id": "ID",
+      "name": "Name",
+      "manufacturer": "Manufacturer",
+      "category": "Category",
+      "price": "Price",
+      "stock": "Stock",
+      "purchaseItems": "Purchase Items",
+      "medicineBatches": "Medicine Batches",
+      "saleItems": "Sale Items"
+    }
+  }
+}

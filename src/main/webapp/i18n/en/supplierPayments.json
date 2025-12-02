@@ -1,0 +1,30 @@
+{
+  "hmPharmacyApp": {
+    "supplierPayments": {
+      "home": {
+        "title": "Supplier Payments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Supplier Payments",
+        "createOrEditLabel": "Create or edit a Supplier Payments",
+        "search": "Search for Supplier Payments",
+        "notFound": "No Supplier Payments found"
+      },
+      "created": "A new Supplier Payments is created with identifier {{ param }}",
+      "updated": "A Supplier Payments is updated with identifier {{ param }}",
+      "deleted": "A Supplier Payments is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Supplier Payments {{ id }}?"
+      },
+      "detail": {
+        "title": "Supplier Payments"
+      },
+      "id": "ID",
+      "paymentDate": "Payment Date",
+      "paymentMethod": "Payment Method",
+      "paymentStatus": "Payment Status",
+      "amountPaid": "Amount Paid",
+      "suppliers": "Suppliers",
+      "purchases": "Purchases"
+    }
+  }
+}

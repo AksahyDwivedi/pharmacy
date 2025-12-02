@@ -7,7 +7,18 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "medicines": "Medicines",
+        "medicineBatches": "Medicine Batches",
+        "customers": "Customers",
+        "suppliers": "Suppliers",
+        "purchases": "Purchases",
+        "purchaseItems": "Purchase Items",
+        "sales": "Sales",
+        "saleItems": "Sale Items",
+        "prescriptions": "Prescriptions",
+        "payments": "Payments",
+        "supplierPayments": "Supplier Payments"
       },
       "account": {
         "main": "Account",
