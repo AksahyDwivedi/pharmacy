@@ -1,0 +1,44 @@
+{
+  "annotations": {
+    "changelogDate": "20251202145328"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "saleDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "invoiceNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalAmount",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "name": "Sales",
+  "relationships": [
+    {
+      "otherEntityName": "saleItems",
+      "otherEntityRelationshipName": "sales",
+      "relationshipName": "saleItems",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "payments",
+      "otherEntityRelationshipName": "sales",
+      "relationshipName": "payments",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "customers",
+      "otherEntityRelationshipName": "sales",
+      "relationshipName": "customers",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hmPharmacyApp": {
+    "medicines": {
+      "home": {
+        "title": "Medicines",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Medicines",
+        "createOrEditLabel": "Create or edit a Medicines",
+        "search": "Search for Medicines",
+        "notFound": "No Medicines found"
+      },
+      "created": "A new Medicines is created with identifier {{ param }}",
+      "updated": "A Medicines is updated with identifier {{ param }}",
+      "deleted": "A Medicines is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Medicines {{ id }}?"
+      },
+      "detail": {
+        "title": "Medicines"
+      },
+      "id": "ID",
+      "name": "Name",
+      "manufacturer": "Manufacturer",
+      "category": "Category",
+      "price": "Price",
+      "stock": "Stock",
+      "purchaseItems": "Purchase Items",
+      "medicineBatches": "Medicine Batches",
+      "saleItems": "Sale Items"
+    }
+  }
+}

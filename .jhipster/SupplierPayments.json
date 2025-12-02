@@ -1,0 +1,41 @@
+{
+  "annotations": {
+    "changelogDate": "20251202145332"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "paymentDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "paymentMethod",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paymentStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amountPaid",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "name": "SupplierPayments",
+  "relationships": [
+    {
+      "otherEntityName": "suppliers",
+      "otherEntityRelationshipName": "supplierPayments",
+      "relationshipName": "suppliers",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "purchases",
+      "otherEntityRelationshipName": "supplierPayments",
+      "relationshipName": "purchases",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "hmPharmacyApp": {
+    "medicineBatches": {
+      "home": {
+        "title": "Medicine Batches",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Medicine Batches",
+        "createOrEditLabel": "Create or edit a Medicine Batches",
+        "search": "Search for Medicine Batches",
+        "notFound": "No Medicine Batches found"
+      },
+      "created": "A new Medicine Batches is created with identifier {{ param }}",
+      "updated": "A Medicine Batches is updated with identifier {{ param }}",
+      "deleted": "A Medicine Batches is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Medicine Batches {{ id }}?"
+      },
+      "detail": {
+        "title": "Medicine Batches"
+      },
+      "id": "ID",
+      "batchNumber": "Batch Number",
+      "expiryDate": "Expiry Date",
+      "quantity": "Quantity",
+      "purchases": "Purchases",
+      "medicines": "Medicines"
+    }
+  }
+}

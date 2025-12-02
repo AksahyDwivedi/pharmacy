@@ -1,0 +1,29 @@
+{
+  "hmPharmacyApp": {
+    "medicineBatches": {
+      "home": {
+        "title": "MedicineBatches",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Medicine Batches बनाएँ",
+        "createOrEditLabel": "Medicine Batches बनाएँ या संपादित करें",
+        "search": "Medicine Batches खोजें",
+        "notFound": "No Medicine Batches found"
+      },
+      "created": "एक नया Medicine Batches [identifier: {{ param }}] तैयार है",
+      "updated": "एक Medicine Batches [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Medicine Batches [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Medicine Batches [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Medicine Batches"
+      },
+      "id": "ID",
+      "batchNumber": "Batch Number",
+      "expiryDate": "Expiry Date",
+      "quantity": "Quantity",
+      "purchases": "Purchases",
+      "medicines": "Medicines"
+    }
+  }
+}

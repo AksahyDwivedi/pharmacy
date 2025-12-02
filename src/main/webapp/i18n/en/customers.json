@@ -1,0 +1,30 @@
+{
+  "hmPharmacyApp": {
+    "customers": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Customers",
+        "createOrEditLabel": "Create or edit a Customers",
+        "search": "Search for Customers",
+        "notFound": "No Customers found"
+      },
+      "created": "A new Customers is created with identifier {{ param }}",
+      "updated": "A Customers is updated with identifier {{ param }}",
+      "deleted": "A Customers is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Customers {{ id }}?"
+      },
+      "detail": {
+        "title": "Customers"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "prescriptions": "Prescriptions",
+      "sales": "Sales"
+    }
+  }
+}

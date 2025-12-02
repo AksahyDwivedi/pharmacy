@@ -1,0 +1,28 @@
+{
+  "hmPharmacyApp": {
+    "prescriptions": {
+      "home": {
+        "title": "Prescriptions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Prescriptions बनाएँ",
+        "createOrEditLabel": "Prescriptions बनाएँ या संपादित करें",
+        "search": "Prescriptions खोजें",
+        "notFound": "No Prescriptions found"
+      },
+      "created": "एक नया Prescriptions [identifier: {{ param }}] तैयार है",
+      "updated": "एक Prescriptions [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Prescriptions [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Prescriptions [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Prescriptions"
+      },
+      "id": "ID",
+      "doctorName": "Doctor Name",
+      "prescriptionDate": "Prescription Date",
+      "notes": "Notes",
+      "customers": "Customers"
+    }
+  }
+}

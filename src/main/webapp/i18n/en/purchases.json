@@ -1,0 +1,31 @@
+{
+  "hmPharmacyApp": {
+    "purchases": {
+      "home": {
+        "title": "Purchases",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Purchases",
+        "createOrEditLabel": "Create or edit a Purchases",
+        "search": "Search for Purchases",
+        "notFound": "No Purchases found"
+      },
+      "created": "A new Purchases is created with identifier {{ param }}",
+      "updated": "A Purchases is updated with identifier {{ param }}",
+      "deleted": "A Purchases is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Purchases {{ id }}?"
+      },
+      "detail": {
+        "title": "Purchases"
+      },
+      "id": "ID",
+      "purchaseDate": "Purchase Date",
+      "invoiceNumber": "Invoice Number",
+      "totalAmount": "Total Amount",
+      "purchaseItems": "Purchase Items",
+      "medicineBatches": "Medicine Batches",
+      "supplierPayments": "Supplier Payments",
+      "suppliers": "Suppliers"
+    }
+  }
+}

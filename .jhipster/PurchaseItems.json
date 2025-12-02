@@ -1,0 +1,33 @@
+{
+  "annotations": {
+    "changelogDate": "20251202145327"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "quantity",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "name": "PurchaseItems",
+  "relationships": [
+    {
+      "otherEntityName": "purchases",
+      "otherEntityRelationshipName": "purchaseItems",
+      "relationshipName": "purchases",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "medicines",
+      "otherEntityRelationshipName": "purchaseItems",
+      "relationshipName": "medicines",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ]
+}

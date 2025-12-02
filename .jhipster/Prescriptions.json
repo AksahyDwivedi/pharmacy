@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20251202145330"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "doctorName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prescriptionDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "notes",
+      "fieldType": "TextBlob"
+    }
+  ],
+  "name": "Prescriptions",
+  "relationships": [
+    {
+      "otherEntityName": "customers",
+      "otherEntityRelationshipName": "prescriptions",
+      "relationshipName": "customers",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ]
+}

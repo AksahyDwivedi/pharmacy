@@ -1,0 +1,51 @@
+{
+  "annotations": {
+    "changelogDate": "20251202145326"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "purchaseDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "invoiceNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalAmount",
+      "fieldType": "BigDecimal"
+    }
+  ],
+  "name": "Purchases",
+  "relationships": [
+    {
+      "otherEntityName": "purchaseItems",
+      "otherEntityRelationshipName": "purchases",
+      "relationshipName": "purchaseItems",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "medicineBatches",
+      "otherEntityRelationshipName": "purchases",
+      "relationshipName": "medicineBatches",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "supplierPayments",
+      "otherEntityRelationshipName": "purchases",
+      "relationshipName": "supplierPayments",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "suppliers",
+      "otherEntityRelationshipName": "purchases",
+      "relationshipName": "suppliers",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ]
+}

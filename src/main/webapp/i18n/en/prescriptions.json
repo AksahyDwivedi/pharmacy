@@ -1,0 +1,28 @@
+{
+  "hmPharmacyApp": {
+    "prescriptions": {
+      "home": {
+        "title": "Prescriptions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Prescriptions",
+        "createOrEditLabel": "Create or edit a Prescriptions",
+        "search": "Search for Prescriptions",
+        "notFound": "No Prescriptions found"
+      },
+      "created": "A new Prescriptions is created with identifier {{ param }}",
+      "updated": "A Prescriptions is updated with identifier {{ param }}",
+      "deleted": "A Prescriptions is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Prescriptions {{ id }}?"
+      },
+      "detail": {
+        "title": "Prescriptions"
+      },
+      "id": "ID",
+      "doctorName": "Doctor Name",
+      "prescriptionDate": "Prescription Date",
+      "notes": "Notes",
+      "customers": "Customers"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "annotations": {
+    "changelogDate": "20251202145324"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "TextBlob"
+    }
+  ],
+  "name": "Customers",
+  "relationships": [
+    {
+      "otherEntityName": "prescriptions",
+      "otherEntityRelationshipName": "customers",
+      "relationshipName": "prescriptions",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "sales",
+      "otherEntityRelationshipName": "customers",
+      "relationshipName": "sales",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ]
+}

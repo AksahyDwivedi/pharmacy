@@ -1,0 +1,30 @@
+{
+  "hmPharmacyApp": {
+    "customers": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Customers बनाएँ",
+        "createOrEditLabel": "Customers बनाएँ या संपादित करें",
+        "search": "Customers खोजें",
+        "notFound": "No Customers found"
+      },
+      "created": "एक नया Customers [identifier: {{ param }}] तैयार है",
+      "updated": "एक Customers [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Customers [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Customers [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Customers"
+      },
+      "id": "ID",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "prescriptions": "Prescriptions",
+      "sales": "Sales"
+    }
+  }
+}
